@@ -283,7 +283,7 @@ curl -X POST http://localhost:7860/v1beta/models/gemini-2.5-flash-lite:streamGen
 - `API_KEYS`：用于身份验证的有效 API 密钥列表（使用逗号分隔）
 - `PORT`：API 服务器端口（默认：7860）
 - `HOST`：服务器监听主机地址（默认：0.0.0.0）
-- `STREAMING_MODE`：流式传输模式（默认：`real`）
+- `STREAMING_MODE`：流式传输模式（默认：`real`），仅对请求时开启流式生效
   - `real`：真实流式传输 - 直接转发 AI Studio 的流式响应给客户端
   - `fake`：模拟流式传输 - 以非流式方式请求 AI Studio，然后将完整的响应转换为流式格式返回给客户端
 - `SECURE_COOKIES`：是否启用安全 Cookie（HTTPS only）

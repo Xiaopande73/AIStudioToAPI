@@ -283,7 +283,7 @@ curl -X POST http://localhost:7860/v1beta/models/gemini-2.5-flash-lite:streamGen
 - `API_KEYS`: Comma-separated list of valid API keys for authentication
 - `PORT`: API server port (default: 7860)
 - `HOST`: Server listening host address (default: 0.0.0.0)
-- `STREAMING_MODE`: Streaming mode (default: `real`)
+- `STREAMING_MODE`: Streaming mode (default: `real`), only effective when streaming is enabled for the request.
   - `real`: True streaming - directly forwards streaming responses from AI Studio to client
   - `fake`: Simulated streaming - requests AI Studio in non-streaming mode, then converts the complete response to streaming format for the client
 - `SECURE_COOKIES`: Enable secure cookies (HTTPS only)
