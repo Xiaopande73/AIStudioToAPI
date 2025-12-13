@@ -6,8 +6,12 @@
  * Original Author: Ellinav
  */
 
-// Load environment variables from .env.local file
-require("dotenv").config({ path: ".env.local" });
+// Load environment variables based on NODE_ENV
+const path = require("path");
+const envFile = process.env.NODE_ENV === "production"
+    ? ".env"
+    : ".env.development";
+require("dotenv").config({ path: path.resolve(__dirname, envFile) });
 
 const ProxyServerSystem = require("./src/proxyServerSystem");
 

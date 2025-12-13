@@ -5,7 +5,8 @@
     "description": "Encapsulate Gemini models on AI Studio as API services.",
     "main": "main.js",
     "scripts": {
-        "start": "node main.js",
+        "dev": "cross-env NODE_ENV=development nodemon main.js",
+        "start": "cross-env NODE_ENV=production node main.js",
         "save-auth": "node scripts/saveAuth.js",
         "setup-auth": "scripts\\setupAuth.bat",
         "prepare": "husky install",
@@ -22,9 +23,11 @@
         "ws": "^8.17.0"
     },
     "devDependencies": {
+        "cross-env": "^7.0.3",
         "eslint": "^8.57.1",
         "husky": "^8.0.3",
-        "lint-staged": "^14.0.0"
+        "lint-staged": "^14.0.0",
+        "nodemon": "^3.1.0"
     },
     "lint-staged": {
         "*.{js,jsx,ts,tsx}": "eslint --fix"

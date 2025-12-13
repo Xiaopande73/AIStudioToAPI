@@ -1,6 +1,13 @@
 .vscode/
 .DS_Store
 
+# Environment variables (keep .env.example)
+.env
+.env.local
+.env.*.local
+.env.development
+.env.production
+
 # Node.js dependencies
 node_modules/
 package-lock.json
