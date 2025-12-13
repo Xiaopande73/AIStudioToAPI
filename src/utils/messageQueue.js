@@ -2,7 +2,7 @@
  * File: src/utils/messageQueue.js
  * Description: Asynchronous message queue for managing request/response communication between server and browser client
  *
- * Maintainers: iBenzene, bbbugg, Hype3808
+ * Maintainers: iBenzene, bbbugg
  * Original Author: Ellinav
  */
 

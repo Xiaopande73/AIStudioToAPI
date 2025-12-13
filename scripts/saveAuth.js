@@ -2,7 +2,7 @@
  * File: scripts/saveAuth.js
  * Description: Automated script to launch browser, extract authentication state from Google AI Studio, and save to config files
  *
- * Maintainers: iBenzene, bbbugg, Hype3808
+ * Maintainers: iBenzene, bbbugg
  * Original Author: Ellinav
  */
 

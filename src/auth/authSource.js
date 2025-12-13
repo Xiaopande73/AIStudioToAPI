@@ -2,7 +2,7 @@
  * File: src/auth/authSource.js
  * Description: Authentication source manager that loads and validates authentication data from environment variables or config files
  *
- * Maintainers: iBenzene, bbbugg, Hype3808
+ * Maintainers: iBenzene, bbbugg
  * Original Author: Ellinav
  */
 

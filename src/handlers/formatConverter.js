@@ -2,7 +2,7 @@
  * File: src/handlers/formatConverter.js
  * Description: Format converter that translates between OpenAI and Google Gemini API request/response formats
  *
- * Maintainers: iBenzene, bbbugg, Hype3808
+ * Maintainers: iBenzene, bbbugg
  * Original Author: Ellinav
  */
 

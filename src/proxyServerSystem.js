@@ -2,7 +2,7 @@
  * File: src/proxyServerSystem.js
  * Description: Main proxy server system that orchestrates all components including HTTP/WebSocket servers, authentication, and request handling
  *
- * Maintainers: iBenzene, bbbugg, Hype3808
+ * Maintainers: iBenzene, bbbugg
  * Original Author: Ellinav
  */
 

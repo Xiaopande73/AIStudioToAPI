@@ -2,7 +2,7 @@
  * File: src/configLoader.js
  * Description: Configuration loader that reads and validates system settings from config.json and environment variables
  *
- * Maintainers: iBenzene, bbbugg, Hype3808
+ * Maintainers: iBenzene, bbbugg
  * Original Author: Ellinav
  */
 

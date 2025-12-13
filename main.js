@@ -2,7 +2,7 @@
  * File: main.js
  * Description: Main entry file that initializes and starts the AIStudio To API proxy server system
  *
- * Maintainers: iBenzene, bbbugg, Hype3808
+ * Maintainers: iBenzene, bbbugg
  * Original Author: Ellinav
  */
 

@@ -2,7 +2,7 @@
  * File: src/handlers/requestHandler.js
  * Description: Main request handler that processes API requests, manages retries, and coordinates between authentication and format conversion
  *
- * Maintainers: iBenzene, bbbugg, Hype3808
+ * Maintainers: iBenzene, bbbugg
  * Original Author: Ellinav
  */
 

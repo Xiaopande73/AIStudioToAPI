@@ -2,7 +2,7 @@
  * File: src/browser/blackBrowser.js
  * Description: Client-side browser script that runs in the headless browser to proxy API requests through WebSocket
  *
- * Maintainers: iBenzene, bbbugg, Hype3808
+ * Maintainers: iBenzene, bbbugg
  * Original Author: Ellinav
  */
 

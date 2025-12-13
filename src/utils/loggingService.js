@@ -2,7 +2,7 @@
  * File: src/utils/loggingService.js
  * Description: Logging service that formats, buffers, and outputs system logs with different severity levels
  *
- * Maintainers: iBenzene, bbbugg, Hype3808
+ * Maintainers: iBenzene, bbbugg
  * Original Author: Ellinav
  */
 

@@ -2,7 +2,7 @@
  * File: src/utils/connectionRegistry.js
  * Description: Connection registry that manages WebSocket connections and routes messages to appropriate message queues
  *
- * Maintainers: iBenzene, bbbugg, Hype3808
+ * Maintainers: iBenzene, bbbugg
  * Original Author: Ellinav
  */
 

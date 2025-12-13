@@ -2,7 +2,7 @@
  * File: src/webRoutes.js
  * Description: Web routes manager for handling HTTP routes including status pages, authentication, and API endpoints
  *
- * Maintainers: iBenzene, bbbugg, Hype3808
+ * Maintainers: iBenzene, bbbugg
  * Original Author: Ellinav
  */
 
